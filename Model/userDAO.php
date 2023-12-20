@@ -50,7 +50,7 @@ class userDAO{
         $stmt = $con->prepare("DELETE FROM articulos WHERE idarticulos = ?");
         $stmt->bind_param("i", $id);
         $stmt->execute();
-        ;
+        
     }
 }
 
